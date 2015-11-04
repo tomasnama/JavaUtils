@@ -12,11 +12,9 @@ import java.util.Date;
  */
 public class Fechas {
 	
-	/**
-	 * 
+	/**Calcula la diferencia entre meses
 	 */
 	public static void diferenciaMeses() {
-		System.out.println("Start");
 		SimpleDateFormat formatoDelTexto = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 		int meses = 0;
 		String sdate = "2013-06-08 00:00:00";
@@ -56,11 +54,10 @@ public class Fechas {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		System.out.println("End");
 	}
 	
-    /**
-     * @return
+    /**Calcula los días para llegar a final de mes
+     * @return número de días
      */
     public static int diasParaFinDeMes() {
         Calendar cal = Calendar.getInstance();
