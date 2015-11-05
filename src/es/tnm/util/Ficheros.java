@@ -3,7 +3,10 @@ package es.tnm.util;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
-
+/**
+ * @author tomas.navarro@gmail.com
+ *
+ */
 public class Ficheros {
 	
 	/**Lista los ficheros de una carpeta
