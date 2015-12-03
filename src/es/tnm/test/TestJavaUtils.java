@@ -10,6 +10,7 @@ import org.junit.Test;
 
 import es.tnm.util.Dni;
 import es.tnm.util.Ficheros;
+import es.tnm.util.OperMatematicas;
 import es.tnm.util.Threads;
 
 public class TestJavaUtils {
@@ -30,11 +31,11 @@ public class TestJavaUtils {
 	public void tearDown() throws Exception {
 	}
 
+	@Ignore
 	@Test
 	public void testThreads() {
 		Threads.testThreads();
 		Threads.ContarThread contar = new Threads.ContarThread(10);
-		contar.run();
 	}
 	
 	@Ignore
@@ -49,4 +50,12 @@ public class TestJavaUtils {
 		char letra = Dni.calculaLetra(46649996);
 		Assert.assertTrue(letra == 'Q');
 	}
+	
+	@Test
+	public void testOper() {
+		OperMatematicas oper = new OperMatematicas();
+		float result = oper.miFormula(3, 7);
+		Assert.assertTrue(result == new Float(4.714286));
+	}
+	
 }

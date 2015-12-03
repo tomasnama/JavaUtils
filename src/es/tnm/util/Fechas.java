@@ -7,7 +7,7 @@ import java.util.Date;
 
 
 /**
- * @author tomas.navarro@gmail.com
+ * @author Tomas Navarro Martinez
  *
  */
 public class Fechas {

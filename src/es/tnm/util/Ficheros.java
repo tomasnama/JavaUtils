@@ -4,7 +4,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 /**
- * @author tomas.navarro@gmail.com
+ * @author Tomas Navarro Martinez
  *
  */
 public class Ficheros {
