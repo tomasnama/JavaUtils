@@ -5,7 +5,7 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 /**
  * @author Tomas Navarro Martinez
- *
+ * Utilidades para manejar ficheros
  */
 public class Ficheros {
 	
@@ -23,7 +23,7 @@ public class Ficheros {
 		
 	}
 	
-	/**Elimina una carpeta, si la carpeta tiene dicheros o más carpetas utiliza el método
+	/**Elimina una carpeta, si la carpeta tiene dicheros o mï¿½s carpetas utiliza el mï¿½todo
 	 * eliminarContenidoDirectorio para eliminar recursivamente
 	 * @param sDir ruta de la carpeta a eliminar
 	 * @throws IOException

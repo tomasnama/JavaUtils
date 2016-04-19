@@ -8,7 +8,7 @@ import java.util.Date;
 
 /**
  * @author Tomas Navarro Martinez
- *
+ * Utilidades para manejar fechas
  */
 public class Fechas {
 	
@@ -56,8 +56,8 @@ public class Fechas {
 		}
 	}
 	
-    /**Calcula los días para llegar a final de mes
-     * @return número de días
+    /**Calcula los dÃ­as para llegar a final de mes
+     * @return nÃºmero de dÃ­as
      */
     public static int diasParaFinDeMes() {
         Calendar cal = Calendar.getInstance();

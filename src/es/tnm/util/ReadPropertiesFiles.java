@@ -6,6 +6,11 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Properties;
 
+/**
+ * @author Tomas Navarro Martinez
+ * Lee ficheros properites java
+ *
+ */
 public class ReadPropertiesFiles {
 
 	public static HashMap loadProperties(File file) {

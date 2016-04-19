@@ -2,7 +2,7 @@ package es.tnm.util;
 
 /**
  * @author Tomas Navarro Martinez
- *
+ * Mis pruebas con Threads
  */
 public class Threads {
 	
@@ -31,7 +31,7 @@ public class Threads {
 	}
 	
 	/**
-	 * Thread con par·metro n
+	 * Thread con par√°metros
 	 */
 	public static class ContarThread implements Runnable {
 		public ContarThread(int n) {

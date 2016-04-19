@@ -1,10 +1,9 @@
 package es.tnm.util;
 
-import java.math.BigDecimal;
 
 /**
  * @author Tomas Navarro Martinez
- *
+ * Operaciones matemáticas
  */
 public class OperMatematicas {
 	
